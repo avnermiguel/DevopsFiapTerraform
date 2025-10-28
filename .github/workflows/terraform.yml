@@ -27,7 +27,7 @@ jobs:
           aws-region: ${{ vars.AWS_REGION }}
 
       - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v2
+        uses: hashicorp/setup-terraform@v3
 
       - name: Terraform Format
         id: fmt
